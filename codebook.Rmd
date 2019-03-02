@@ -1,0 +1,94 @@
+---
+title: "makeCodebook"
+author: "PK"
+date: "February 28, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+Codebook for tidy data created for UCI HAR Dataset. 
+
+
+##Data Set
+The data set consists of one file "tiDyData.txt". It is text delimited file with white space as delimiter.
+
+
+##Data Set Variables
+
+
+| Variable | Description |
+|:-------- |:----------- |
+| Subject  | Id of the Subject who performed the Activity. Ranges from 1-30 |
+| Activity Id | Id for the Activity. Ranges from 1-6
+| Activity Name | Activity description (1-WALKING,2-WALKING_UPSTAIRS,3-WALKING_DOWNSTAIRS,4-SITTING,5-STANDING,6-LAYING) |
+| tBodyAcc-mean()-X | Mean Body Acceleration measurment in X direction |
+| tBodyAcc-std()-Z  | Std Body Acceleration measurment in Z direction |
+| tBodyAcc-mean()-Z  | Mean Body Acceleration measurment in Z direction |
+| tBodyAcc-std()-X  | Std Body Acceleration measurment in X direction |
+| tBodyAcc-std()-Y  | Std Body Acceleration measurment in Y direction |
+| tBodyAcc-std()-Z  | Std Body Acceleration measurment in Z direction |
+| tGravityAcc-mean()-X  | Mean Gravity Acceleration measurment in X direction |
+| tGravityAcc-mean()-Y  | Mean Gravity Acceleration measurment in Y direction |
+| tGravityAcc-mean()-Z  | Mean Gravity Acceleration measurment in Z direction |
+| tGravityAcc-std()-X  | Std Gravity Acceleration measurment in X direction |
+| tGravityAcc-std()-Y  | Std Gravity Acceleration measurment in Y direction |
+| tGravityAcc-std()-Z  | Std Gravity Acceleration measurment in Z direction |
+| tBodyAccJerk-mean()-X  | Mean FFT Acceleration measurment in X direction |
+| tBodyAccJerk-mean()-Z  | Mean FFT Acceleration measurment in Z direction |
+| tBodyAccJerk-std()-X  | Std FFT Acceleration measurment in X direction |
+| tBodyAccJerk-std()-Y  | Std FFT Acceleration measurment in Y direction |
+| tBodyAccJerk-std()-Z  | Std FFT Acceleration measurment in Z direction |
+| tBodyGyro-std()-X |Std Body Gyro measurment in X direction|
+| tBodyGyro-std()-Y |Std Body Gyro measurment in Y direction|
+| tBodyGyro-std()-Z |Std Body Gyro measurment in Z direction|
+| tBodyGyroJerk-mean()-X |Mean FFT Gyro measurment in X direction|
+| tBodyGyroJerk-mean()-Y |Mean FFT Gyro measurment in Y direction|
+| tBodyGyroJerk-mean()-Z |Mean FFT Gyro measurment in Z direction|
+| tBodyGyroJerk-std()-X |Std FFT Gyro measurment in X direction|
+| tBodyGyroJerk-std()-Y |Mean FFT Gyro measurment in Y direction|
+| tBodyGyroJerk-std()-Z |Mean FFT Gyro measurment in Z direction|
+| tBodyAccMag-mean()  |Mean Body AccMag measurment |
+| tBodyAccMag-std()|Std Body AccMag measurment |
+| tGravityAccMag-mean()|Mean GravityAccMag measurement |   
+| tGravityAccMag-std()| Std GravityAccMag measurement|
+| tBodyAccJerkMag-mean()| Mean BodyAccJerkMag measurement|
+| tBodyAccJerkMag-std()|Std BodyAccJerkMag measurement|
+| tBodyGyroMag-mean() |Mean BodyGyroMag measurement|
+| tBodyGyroMag-std() |Std BodyGyroMag measurement|
+| tBodyGyroJerkMag-mean()|Mean BodyGyroJerkMag measurement|
+| tBodyGyroJerkMag-std()|Std BodyGyroJerkMag measurement|
+| fBodyAcc-mean()-X | Mean BodyAcc measurement in X direction|
+| fBodyAcc-mean()-Y |Mean BodyAcc measurement in Y direction|
+| fBodyAcc-mean()-Z |Mean BodyAcc measurement in Z direction|
+| fBodyAcc-std()-X |Std BodyAcc measurement in X direction|
+| fBodyAcc-std()-Y |Std BodyAcc measurement in Y direction|          
+| fBodyAcc-std()-Z |Std BodyAcc measurement in Z direction|
+| fBodyAccJerk-mean()-X |Mean BodyAccJerk measurement in X direction|
+| fBodyAccJerk-mean()-Y |Mean BodyAccJerk measurement in Y direction|
+| fBodyAccJerk-mean()-Z |Mean BodyAccJerk measurement in Z direction|     
+| fBodyAccJerk-std()-X |Std BodyAccJerk measurement in X direction|
+| fBodyAccJerk-std()-Y |Std BodyAccJerk measurement in Y direction|
+| fBodyAccJerk-std()-Z |Std BodyAccJerk measurement in Z direction|
+| fBodyGyro-mean()-X |Mean BodyGyro measurement in X direction|
+| fBodyGyro-mean()-Y |Mean BodyGyro measurement in Y direction|
+| fBodyGyro-mean()-Z |Mean BodyGyro measurement in Z direction|
+| fBodyGyro-std()-X |Std BodyGyro measurement in X direction|
+| fBodyGyro-std()-Y |Std BodyGyro measurement in Y direction|          
+| fBodyGyro-std()-Z |Std BodyGyro measurement in Z direction|
+| fBodyAccMag-mean() |Mean BodyAccMag measurement|
+| fBodyAccMag-std() |Std BodyAccMag measurement|
+| fBodyBodyAccJerkMag-mean() |Mean BodyAccJerkMag measurement|
+| fBodyBodyAccJerkMag-std() |Std BodyAccJerkMag measurement|
+| fBodyBodyGyroMag-mean() |Mean BodyGyroMag measurement|
+| fBodyBodyGyroMag-std() |Std BodyGyroMag measurement|
+| fBodyBodyGyroJerkMag-mean() |Mean BodyGyroJerkMag measurement|
+|fBodyBodyGyroJerkMag-std() |Mean BodyGyroJerkMag measurement| 
+)
+
+
+
